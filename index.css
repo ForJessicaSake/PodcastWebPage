@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: e6f0fa;
+    height: 10vh;
+    width: 90%;
+}
+
+.secondbox {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.register {
+    font-size: 13px;
+    padding: 11px;
+    border-radius: 15px;
+    width: 23%;
+    background-color: #360094;
+    color: white;
+}
+
+.container1 {
+    width: 90%;
+    display: flex;
+    margin-top: 60px;
+    padding: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #cbeaff, #c7caed, #efedfb);
+}
+
+.textbox {
+    width: 65%;
+}
+
+.textbox h2 {
+    color: #0d1134;
+    font-size: 40px;
+}
+
+.textbox p {
+    color: #1d2953;
+    font-size: 15px;
+    margin: 35px 0px;
+    width: 70%;
+}
+
+.textbox button {
+    border: opx;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 23%;
+    background-color: #360094;
+    color: white;
+}
+
+.container1 .image1 {
+    margin-top: -85px;
+    border-radius: 20px;
+}
+
+.container1 .image1 img {
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid #aaa;
+}
+
+.container2 {
+    width: 90%;
+    ;
+    margin-top: 50px;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.container2 h2 {
+    font-size: 19px;
+    color: #030333;
+    background-color: #ffffff;
+    width: 90%;
+    font-size: 35px;
+}
+
+#Sedit {
+    color: #2a0e65;
+    background-color: #dff8ff;
+}
+
+.container3 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.textbox3 {
+    width: 25%;
+    font-size: 15px;
+    padding: 10px;
+    color: #030333;
+}
+
+.container3 .textbox3 p {
+    margin-top: 20px;
+}
+
+.container4 {
+    width: 90%;
+    display: flex;
+    margin-top: 60px;
+    padding: 100px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5f8ff;
+}
+
+.container4 .textbox4 {
+    width: 35%;
+}
+
+.container4 .textbox4 span {
+    color: #522a80;
+    background-color: #f2e5ff;
+    fo
+}
+
+.container4 .textbox4 p {
+    margin-top: 20px;
+    color: #31255e;
+}
+
+.container4 .image2 {
+    border-radius: 25px;
+    margin-top: -120px;
+}
+
+.container4 .image2 img {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.container5 {
+    width: 90%;
+    display: flex;
+    margin-top: 70px;
+    padding: 100px 60px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f5fe;
+}
+
+.container5 .textbox5 {
+    width: 30%;
+}
+
+.container5 .textbox5 p {
+    margin-top: 20px;
+    color: #31255e;
+}
+
+.container5 .textbox5 span {
+    background-color: #ffffff;
+    color: #95ecf6;
+}
+
+.container5 .image3 {
+    border-radius: 25px;
+    margin-top: -130px;
+}
+
+.container5 .image3 img {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10%;
+    padding: 60px;
+}
+
+.container6 .textbox6 {
+    width: 24%;
+    font-size: 20px;
+}
+
+.container6 .textbox7 {
+    width: 37%;
+    padding: 10px;
+}
+
+.container6 .textbox6 span {
+    color: #221250;
+    background-color: #e1f3ff;
+}
+
+.container7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 40px;
+}
+
+.container7 .box1 {
+    padding: 60px;
+    border-radius: 25px;
+    width: 30%;
+}
+
+.container7 .box2 {
+    padding: 69px;
+    border-radius: 25px;
+    width: 60%;
+    margin-right: 5%;
+}
+
+.container7 .box2 h2 {
+    font-size: 40px;
+}
+
+.container7 button {
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #4e0ca2;
+    color: white;
+}
+
+.container7 .box1 {
+    background-color: #34c4f9;
+}
+
+.container7 .box2 {
+    background-color: #44039b;
+}
+
+.container7 .box2 button {
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 25px;
+    background-color: #3ec1f9;
+    color: white;
+}
+
+.container8 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10%;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #f5f4fc;
+    ;
+}
+
+.container8 .textbox8 span {
+    color: #221250;
+    background-color: #e1f3ff;
+}
+
+.container8 .textbox8 p {
+    margin-top: 40px;
+    color: #31255e;
+}
+
+.container9 {
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    margin: 10%;
+    width: 90%;
+    padding: 60px;
+    background-image: linear-gradient(to right, #cbeaff, #c7caed, #efedfb);
+}
+
+.container9 .textbox9 {
+    padding: 60px;
+    width: 50%;
+}
+
+.container9 .textbox9 h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #110f25;
+}
+
+.container9 .textbox9 h2 {
+    color: #646270;
+    font-size: 20px;
+}
+
+.container9 .image4 {
+    border-radius: 25px;
+    margin-top: -20px;
+}
+
+.container9 .image4 img {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.container10 {
+    width: 90%;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fbfaff;
+    border-radius: 20px;
+}
+
+.container10 ul {
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+    color: #c3c3c5;
+}
+
+.container10 h3 {
+    font-size: 20px;
+    color: #31255e;
+}
+
+.container10 p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #31255e;
+}
+
+.container11 {
+    width: 90%;
+    padding: 60px;
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fbfbfd;
+    border-radius: 20px;
+    color: #31255e;
+}
+
+.container11 .textbox11a ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin-right: 40px;
+}
